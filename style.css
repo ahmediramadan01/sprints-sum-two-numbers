@@ -1,0 +1,28 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to left, gray, slategray);
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  background: transparent;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 50px;
+  line-height: 1.3;
+  width: 60%;
+  padding: 30px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  transition: 75ms;
+  border: 3px solid white;
+  background: linear-gradient(to left, gray, slategray);
+}
